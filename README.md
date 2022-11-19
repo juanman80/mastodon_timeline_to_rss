@@ -6,9 +6,9 @@ The project is suited to be run from a pythonanywhere instance, so it uses the d
 
 To run the project, it needs a `.env` file in the root folder (There's a sample `.env.sample` that you can copy to `.env` and fill the values). This `.env` file needs to define some environmental variables for the program to run:
 
-  SECRET_KEY=xxx # Django secret key. feel free to google about this. I've used https://djecrety.ir/ to generate mine
-  MASTODON_HOST=https://xxx.yy # URL of your mastodon host
-  MASTODON_BEARER=zzz # Bearer token to access the API for your account. Use this guide to generate one: https://dev.to/bitsrfr/getting-started-with-the-mastodon-api-41jj#find-your-access-token 
-  DEBUG=True # or False. Optative variable. If present and True, you'll get additional log lines about what the app is doing
+    SECRET_KEY=xxx # Django secret key. feel free to google about this. I've used https://djecrety.ir/ to generate mine
+    MASTODON_HOST=https://xxx.yy # URL of your mastodon host
+    MASTODON_BEARER=zzz # Bearer token to access the API for your account. Use this guide to generate one: https://dev.to/bitsrfr/getting-started-with-the-mastodon-api-41jj#find-your-access-token 
+    DEBUG=True # or False. Optative variable. If present and True, you'll get additional log lines about what the app is doing
 
 
