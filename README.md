@@ -1,4 +1,5 @@
 # mastodon_timeline_to_rss
+## this is a WIP. Doesn't work yet.
 
 Service to transform your personal mastodon timeline into an rss source that you can feed to an rss reader.
 
