@@ -25,6 +25,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 MASTODON_HOST = os.getenv('MASTODON_HOST')
 MASTODON_BEARER = os.getenv('MASTODON_BEARER')
 DEBUG = os.getenv('DEBUG')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(' ')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -36,7 +37,7 @@ DEBUG = os.getenv('DEBUG')
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 
-ALLOWED_HOSTS = ['juanman80.eu.pythonanywhere.com', '127.0.0.1']
+# ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
