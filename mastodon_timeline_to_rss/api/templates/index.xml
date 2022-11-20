@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Mastodon timeline to RSS</title>
+        <description>Mastodon timeline to RSS</description>
+
+        {% for status in timeline %}
+        <item>
+            <title>{{ status.id }}</title>
+            <link>{{ status.url }}</link>
+            <description>
+                {{ status.content }}
+            </description>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
